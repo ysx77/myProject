@@ -1,0 +1,68 @@
+@charset "utf-8";
+body{font-family: "微软雅黑";margin: 0;}
+
+/* nav start */
+.navbar-default{height: 70px;box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);background: #FFFFFF;}
+.navbar-default .navbar-brand{line-height: 35px;font-size: 24px;color: #40D2B1;font-weight: bold;}
+.navbar-default .navbar-nav>li>a{line-height: 35px;font-weight: bold;}
+.navbar-default .navbar-toggle .icon-bar{background: #1C9982;}
+.navbar-default .navbar-toggle{margin-top: 15px;}
+.navbar-default .navbar-toggle:hover{background: #40D2B1;}
+.navbar-default .navbar-nav>li>a{background: #FFFFFF;}
+/* nav end */
+
+/* main start */
+#main{margin-top: 70px;background: url(../img/home-bg.jpg);background-size: cover;}
+#lvjing{background: rgba(0,0,0,0.7);}
+#main h1{margin-top: 70px;color: #FFFFFF;text-align: center;}
+#main p{color: #FFFFFF;text-align: center;margin-top: 20px;}
+#main img{margin-top: 40px;margin-bottom: 80px;}
+/* main end */
+
+/* forum start */
+#forum a{text-decoration: none;text-align: center;}
+#forum .box{margin-top: 80px;}
+#forum .box:hover{background: #F1F1F1;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);}
+#forum img{margin-left: 160px;margin-top: 20px;}
+/* forum end */
+
+/* web start */
+.web{background: #F8F8F8;padding-bottom: 80px;}
+.web .col-md-6{margin-top: 80px;}
+.web span{background: #40D2B1;padding: 13px;border-radius: 20px;}
+.web p,.web span{float: left;}
+.web h1{font-weight: bold;}
+.web .p1 {margin-left: 20px;line-height: 40px;width: 85%;}
+.bootstrap{background: #FFFFFF;}
+/* web end */
+
+/* newlesson start */
+#newlesson{background: #F8F8F8;padding-top: 80px;text-align: center;padding-bottom: 80px;}
+#newlesson h1{text-align: center;font-weight: bold;margin-bottom: 40px;}
+#newlesson a{border: 1px solid #40D2B1;display: block;color:#40D2B1;text-decoration: none;margin: 30px 60px 0px 60px;padding: 8px 0px;}
+#newlesson .lesson{background: #FFFFFF;margin-top: 20px;padding-bottom: 35px;}
+#newlesson a:hover{background: #40D2B1;color: #FFFFFF;transition: 0.5s;}
+/* newlesson end */
+
+/* mobleApp start */
+.mobleApp{background: #FFFFFF;}
+.mobleApp p{margin-top: 40px;}
+.mobleApp a{text-decoration: none;padding: 8px 20px;background: #40D2B1;color: #FFFFFF;}
+.mobleApp a:hover{background: #2C8E78;transition: 0.5s;}
+/* mobleApp end */
+
+/* address start */
+#address{background: url(../img/contact-bg.png);background-size: cover;color: #FFFFFF;}
+#addressLvjing{background: rgba(0,0,0,0.6);}
+#address h2{font-weight: bold;}
+#address p{margin-top: 30px;}
+#address .content{padding: 80px 0px;}
+#address input{width: 100%;padding: 15px 10px;color: #000000;margin-bottom: 20px;border: none;outline: none;}
+#address textarea{outline: none;margin-bottom: 20px;border: none;}
+#address #btn{background: #3FD1B0;color: #FFFFFF;}
+#address #btn:hover{background: #2B8D77;transition: 0.5s;}
+/* address end */
+
+/* footer start */
+#footer p{text-align: center;margin: 20px 0px;}
+/* footer end */
