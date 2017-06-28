@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+	z-index:1;
+}
+body{
+	background-color:#958465;
+}
+nav{
+	position:absolute;
+	background-color:#958465;
+	height:50px;
+	width:1349px;
+	text-align:center;
+	z-index:2;
+}
+nav li{
+	list-style:none;
+	display:inline;
+	line-height:40px;
+}
+nav ul{
+	position:absolute;
+	top:10px;
+	left:450px;
+}
+nav span{
+	display:inline-block;
+	width:100px;
+	height:40px;
+	background-color:#fff;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:black;
+	border-radius: 20px;
+}
+nav span:hover{
+	background-color:black;
+	color:#fff;
+}
+header{
+	width:1000px;
+	position:absolute;
+	left:184px;
+	top:70px;
+}
+ul {
+  list-style:none;
+}
+#wrap {
+  position:relative;
+  width:1000px;
+  height:500px;
+  overflow:hidden;
+}
+
+#slider {
+  width:300%;
+  -webkit-animation:slide1 20s ease-out infinite;
+
+}
+
+#slider li {
+  float:left;
+  width:1000px;
+}
+
+/*创建三种动画策略*/
+@-webkit-keyframes slide1 {
+  0% { margin-left:0;}
+  25% { margin-left:-1000px;}
+  50% { margin-left:-2000px;}
+  75% {margin-left:-1000px;}
+  100% {margin-left:0px;}
+}
+#slider img{
+	width:1000px;
+	height:500px;
+}
+.shiping{
+	position:absolute;
+	width:1010px;
+	height:810px;
+	top:630px;
+	left:185px;
+}
+.shiping video{
+	position:absolute; 
+	width:1000px;
+	
+}
+.yinyue{
+	position:fixed;
+	right:10px;
+}
+.yinyue audio{
+	width:200px;
+	background-color:red;
+}
+h1{
+	color:blue;
+	font-family:"微软雅黑";
+}
+
+
+
+
+.hong1{
+	position:absolute;
+	top:10px;
+	left:10px;
+	z-index:4;
+	animation: move 2s infinite;
+}
+@-webkit-keyframes  move{
+	0%{transform: rotatey(0deg);}
+	100%{transform:rotatey(360deg);}
+		
+}
