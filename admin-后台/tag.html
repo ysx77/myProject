@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-blue.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-myself.css" />
+		<script src="js/jquery-1.11.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/Chart.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/npm.js"></script>
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<!--导航条开始-->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="navbar-brand">Admin</a>
+					<button class="navbar-toggle" type="button" data-toggle='collapse' data-target='#myCollapse'>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>					
+				</button>
+				</div>
+				<div class="collapse navbar-collapse" id="myCollapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;后台首页</a>
+						</li>
+						<li>
+							<a href="user_list.html"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户管理</a>
+						</li>
+						<li>
+							<a href="content_list.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;内容管理</a>
+						</li>
+						<li class="active">
+							<a href="tag.html"><span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;标签管理</a>
+						</li>
+
+					</ul>
+
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle='dropdown'>
+								admin
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a>
+								</li>
+								<li>
+									<a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="exit.html"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--导航条结束-->
+		
+		
+		<!--内容开始-->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="container">
+					<div class="page-header">
+						<h4>TAG标签管理</h4>
+					</div>
+					<div class="col-md-12 pad0">
+						<form action="#">
+							<div class="form-group">
+								<div class="col-md-10">
+									<input type="text" class="form-control" placeholder="请输入要添加的标签"></input>
+								</div>
+								<div class="col-md-2">
+									<button type="button" class="btn btn-default">添加</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-12 taglist">
+						<div class="alert alert-info alert-dismissible pull-left" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button>
+							<strong>我爱北京天安门</strong>
+						</div>
+						<div class="alert alert-info alert-dismissible pull-left" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button>
+							<strong>夜空中最亮的星</strong>
+						</div>
+						<div class="alert alert-info alert-dismissible pull-left" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close">&times;</button>
+							<strong>下雨</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--内容结束-->
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Copyright © 2012-2015  www.baidu.com  粤ICP备13014270号-4</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</body>
+</html>
